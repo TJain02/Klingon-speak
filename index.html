@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klingon Speak</title>
+    <style>
+        textarea{
+            color: gray;
+            width: 80%;
+            height:10vh;
+            display:block;
+            margin:1rem;
+            padding:1rem;
+            background-color: transparent;
+        }
+       
+        #output{
+            border:1px solid gray;
+            height:10vh;
+            diplay:block;
+            margin: 1rem;
+            width:80%;
+            padding:1rem;
+           
+        }
+        #header{
+            font-family: 'Dancing Script', cursive;
+            text-align: center;
+            font-size: xx-large;
+            display: block;
+        }
+        #btn-translate{
+            margin-left: 45%;
+            background: transparent;
+            color: gray;
+            border-color: gray;
+            cursor: pointer;
+        }
+        body{
+            display: block;
+            font-family: 'Dancing Script', cursive;
+            padding-top: 3rem;
+            padding-left: 3rem;
+            margin:2rem;
+            border: thin;
+            background-position: auto;
+            background-attachment: fixed;
+           background-color: #111827;
+           color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="header">Klingon Speak</h1>
+    <textarea 
+    id="txt-input" placeholder="Please type your sentence in English and we will convert it to Klingon!"></textarea>
+    <button id="btn-translate">Translate</button>
+    <div style="margin-left: 40%;">Output will come here 👇 </div>
+    <div id="output"></div>
+    <script src="klingon.js" type="text/javascript"></script>
+    
+  
+</body>
+</html>
