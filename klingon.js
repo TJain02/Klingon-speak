@@ -4,7 +4,7 @@ var outputDiv = document.querySelector("#output");
 
 // var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
 
-var serverURL="https://api.funtranslations.com/translate/klingon.json"
+var serverURL="https://api.funtranslations.com/translate/klingon.json";
 
 
 function getTranslationURL(text) {
